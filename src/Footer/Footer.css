@@ -1,0 +1,28 @@
+/* Style du Footer */
+.footer {
+    background-color: #d4bfbf;  /* Fond clair */
+    padding: 20px 0;  /* Espacement autour du contenu */
+    text-align: center;
+    width: 100%;
+    margin-top: 60px; /* Décalage pour s'assurer que le footer ne chevauche pas le contenu */
+}
+
+.footer-content p {
+    font-size: 1rem;
+    color: #555;  /* Gris foncé pour le texte */
+    margin: 0;
+}
+
+.contact-section {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #261f2f; /* Couleur du texte du contact */
+}
+
+.contact-section p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Media Queries pour petites résolutions */
+

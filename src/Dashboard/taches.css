@@ -1,0 +1,65 @@
+/* Style général */
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+}
+
+/* Conteneur principal */
+.todo-container {
+    margin-top: 20px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* En-tête (Titre + Bouton retour) */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Formulaire d'ajout */
+.task-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-button {
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+/* Liste des tâches */
+.task-list-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: auto;
+}
+
+.task-table {
+    margin-bottom: 0;
+}
+
+/* Boutons d'action */
+.task-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.task-table button {
+    margin: 2px;
+}

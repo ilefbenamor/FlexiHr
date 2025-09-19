@@ -1,0 +1,138 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #d4bfbf; 
+  height: 60px;
+}
+
+#Header {
+  margin-top: 150px; 
+}
+
+/* Logo */
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .logo .dots {
+  font-size: 2rem;
+  color: #59456d; 
+  margin-right: 5px;
+}
+
+nav .logo .flexi-title {
+  font-size: 1.5rem;
+  color: #625574; 
+}
+
+/* Liens de navigation */
+nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-links span {
+  margin-right: 20px;
+}
+
+nav .nav-links span:last-child {
+  margin-right: 40px;
+}
+
+nav a {
+  color: #261f2f; 
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #59456d; 
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Section Header */
+.section1 {
+  
+  width: 100vw;
+  
+  
+  
+  
+  height:100vh  ; 
+  padding-top: 260px;
+  background: linear-gradient(
+      rgba(112, 100, 100, 0.5), 
+      rgba(240, 236, 236, 0.5)
+  ), url('../assets/plat1.jpg');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+
+
+.section1 .content {
+  width: 440px; 
+  text-align: left;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.section1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #261f2f; 
+}
+
+.section1 p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #261f2f;
+}
+
+.section1 button {
+  background-color: #59456d; 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.section1 button:hover {
+  background-color: #261f2f; 
+}
+
+
+
+
+

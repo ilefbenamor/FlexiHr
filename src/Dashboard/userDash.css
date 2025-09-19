@@ -1,0 +1,60 @@
+/* User Menu container */
+.user-menu-container {
+  position: relative;
+}
+
+.user-menu {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 180px;
+  padding: 10px;
+  z-index: 1000;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Afficher le menu quand on survole */
+.user-menu-container:hover .user-menu {
+  display: block;
+  opacity: 1;
+}
+
+/* Design du menu utilisateur */
+.user-menu .user-email {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.user-menu .btn {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .user-menu {
+    width: 100%;
+    right: 0;
+    top: 50px;
+  }
+}
+
+/* Styles pour le tableau de bord */
+.user-dashboard {
+  margin-top: 80px; /* Espace pour la navbar fixe */
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.row.mt-5.pt-5 {
+  margin-top: 60px;
+}
+

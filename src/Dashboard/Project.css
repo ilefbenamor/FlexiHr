@@ -1,0 +1,31 @@
+.project-summary {
+    margin-top: 20px;
+  }
+  
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-item {
+    background-color: #f4f4f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-item .project-name {
+    font-weight: bold;
+  }
+  
+  .project-item .project-date {
+    color: #666;
+  }
+  
+  .project-item:hover {
+    background-color: #e0e0e0;
+  }
+  

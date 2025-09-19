@@ -1,0 +1,92 @@
+
+.user-leaves-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+h2 {
+  color: #6a5acd;
+  margin-bottom: 20px;
+}
+
+
+.no-leaves-message {
+  color: #666;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.user-leaves-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-leaves-table th, 
+.user-leaves-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-leaves-table th {
+  background-color: #e0e0e0;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.user-leaves-table td {
+  background-color: #fafafa;
+  color: #333;
+}
+
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: normal;
+  color: white;
+  display: inline-block;
+}
+
+
+.approved {
+  background-color: #88e88f;
+}
+
+.rejected {
+  background-color: #f58c8c;
+}
+
+.pending {
+  background-color: #ffd966;
+}
+
+
+.cancel-btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #e55c4f;
+}
+
+
+.user-leaves-table tr:last-child td {
+  border-bottom: none;
+}

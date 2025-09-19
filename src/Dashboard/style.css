@@ -1,0 +1,45 @@
+body {
+  background-color: #F7F3FA; /* Mauve pastel très clair */
+}
+
+.navbar {
+  background-color: #E6E1F0 !important; /* Mauve très doux */
+  color: #6D6A7C;
+}
+
+.navbar a {
+  color: #6D6A7C;
+}
+
+.navbar a:hover {
+  color: #B8A9D9;
+}
+
+aside {
+  background-color: #DAD3E8 !important; /* Lavande très claire */
+  border-right: 2px solid #B8A9D9;
+}
+
+aside a {
+  color: #6D6A7C;
+  text-decoration: none;
+}
+
+aside a:hover {
+  background-color: #E6E1F0;
+  border-radius: 5px;
+}
+main {
+  min-height: 90vh; /* Augmente la hauteur pour mieux afficher le contenu */
+  overflow-y: auto; /* Permet le défilement si le rapport est très long */
+  padding-bottom: 20px; /* Un peu d'espace en bas */
+}
+
+.reports-container {
+  min-height: 70vh; /* Agrandit spécifiquement la section des rapports */
+  padding: 20px;
+  background: #F7F3FA; /* Même couleur douce pour rester dans le thème */
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Léger effet d'ombre */
+}
+
